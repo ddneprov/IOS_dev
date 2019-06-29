@@ -1,5 +1,7 @@
 import UIKit
 
+
+// расширение для строки String, которое генерирует строку из случайных символов
 extension String {
     static func random(length: Int) -> String {
         var str = ""
