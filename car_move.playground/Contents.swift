@@ -1,13 +1,11 @@
 import UIKit
 
-struct Position
-{
+struct Position{
     var x: Int
     var y: Int
 }
 
-enum Direction
-{
+enum Direction{
     case Up
     case Down
     case Left
